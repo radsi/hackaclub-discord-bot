@@ -12,7 +12,7 @@ export const commandBase = {
   prefixData: { name: "ysws", aliases: ["jobs"] },
   slashData: new SlashCommandBuilder()
     .setName("ysws")
-    .setDescription("YSWS available jobs"),
+    .setDescription("YSWS available jobs."),
   cooldown: 5000,
   ownerOnly: false,
 
