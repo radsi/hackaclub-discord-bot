@@ -94,7 +94,7 @@ async function sendPaginatedEmbed(ctx, jobs) {
     ? ctx.reply({
         embeds: [pages[currentPage]],
         components: [row],
-        fetchReply: true,
+        withResponse: true,
       })
     : ctx.channel.send({ embeds: [pages[currentPage]], components: [row] }));
 
